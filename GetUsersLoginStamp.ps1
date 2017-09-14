@@ -59,4 +59,4 @@ Else
 Remove-PSSession $Session
 
 #This converts the txt file to a normal csv file!
-Get-Content $LogdirDump | ConvertFrom-Csv | Export-Csv $LogDirInfo -NoTypeInformation -Encoding UTF8 | Remove-Item $LogdirDump $LogdirADSAM
+Get-Content $LogdirDump | ConvertFrom-Csv | Export-Csv $LogDirInfo -NoTypeInformation -Encoding UTF8 | Remove-Item $LogdirDump
