@@ -9,6 +9,8 @@
 # Jane Doe , jane.doe       , 2017-07-03 12:00 , 2017-09-03 12:00 , 2017-09-03 12:00
 #
 # 3500 user takes about 5 minutes to run
+# Change OU's in $OUs
+# Change <servername> in $Session configuration
 
 Import-module ActiveDirectory
 #Imports the session to Exchange server
