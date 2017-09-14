@@ -16,7 +16,7 @@ $UserCredential = Get-Credential
 $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri http://<servername>/PowerShell/ -Authentication Kerberos -Credential $UserCredential
 Import-PSSession $Session
 
-$Logroot = "C:\Temp\UserCheck2"                  #Root folder
+$Logroot = "C:\Temp\UserCheck"                   #Root folder
 $LogdirADSAM = "$Logroot\Users_ADSAM.csv"        #File location for all AD users
 $LogdirDump = "$Logroot\CSV_Dump.txt"            #Dump file
 $LogdirInfo = "$Logroot\Users_Informationen.csv" #Final file location
